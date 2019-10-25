@@ -1,0 +1,48 @@
+html {
+    max-height: 968px;
+    background-image: linear-gradient(to right, grey, white, grey);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Carrier{
+    height:968px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxContainer {
+    position: center;
+    display: flex;
+    background: white;
+    width: 1400px;
+    height: 400px;
+    padding: 0px;
+    justify-content: center;
+    
+}
+
+.box {
+    height: 400px;
+    min-width: 50px;
+    background: grey;
+    list-style-type: none;
+    align-self: center;
+}
+
+.imagePlace {
+    flex-grow: 10;
+}
+
+.leftArrow{
+flex-grow: 1;
+background: white;
+}
+
+.rightArrow{
+flex-grow: 1;
+background: white;
+}

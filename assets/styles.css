@@ -48,7 +48,7 @@ body {
     min-height: 100%;
 }
 
-.leftArrow {
+.leftArrow, .rightArrow {
     flex-grow: 1;
     display: flex;
     background: white;
@@ -61,17 +61,15 @@ body {
     top: 360px;
 }
 
-.rightArrow {
-    flex-grow: 1;
-    display: flex;
-    background: white;
-    align-items: center;
-}
-
 .right {
     display: block;
-    margin-right: auto;
+    margin: auto;
     top: 360px;
+    transform: scaleX(-1);
+}
+
+.left:hover, .right:hover {
+    opacity: 0.5;
 }
 
 .thumbnailContainer {

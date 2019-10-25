@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type:"text/css" href="/assets/styles.css">
+    <title>Web gallery</title>
+</head>
+
+<body>
+    <div class="gallery">
+        <ul class="boxContainer">
+            <li class="box leftArrow"><img id="left" src="../assets/arrow.svg"/></li>
+            <li class="box imagePlace"><img id="preview" src="https://d.newsweek.com/en/full/832470/gun-goddess-miss-fortune-league-legends.jpg"
+                    alt="Awaiting your command" /></li>
+            <li class="box rightArrow"><img id="right" src="../assets/arrow.svg"/></li>
+        </ul>
+        <ul class="thumbnailContainer">
+            <li class="thumbnail image">
+                <img class="smallImage" onclick="getElementById('preview').src=this.src"
+                    src="http://getwallpapers.com/wallpaper/full/0/c/5/598675.jpg" alt="angel-wallpaper" />
+                </a></li>
+
+            <li class="thumbnail image">
+                <img class="smallImage" onclick="getElementById('preview').src=this.src"
+                    src="https://images.alphacoders.com/811/811203.png" alt="lancelot" />
+                </a></li>
+
+            <li class="thumbnail image">
+                <img class="smallImage" onclick="getElementById('preview').src=this.src"
+                    src="https://d.newsweek.com/en/full/832470/gun-goddess-miss-fortune-league-legends.jpg" alt="MF" />
+                </a></li>
+
+            <li class="thumbnail image">
+                <img class="smallImage" onclick="getElementById('preview').src=this.src"
+                    src="http://orig11.deviantart.net/d2b7/f/2015/034/1/a/wallpaper___dj_sona_blue_by_chrisedua-d8gltz1.jpg" alt="dj sona" />
+                </a></li>
+        </ul>
+    </div>
+</body>
+<script src="/index.js"></script>
+
+</html>
